@@ -20,13 +20,14 @@ public class GeometricShape {
     {
         this.color="white";
         this.filled=true;
+        this.dateCreated=new Date();
     }
 
     public GeometricShape(String color, boolean filled)
     {
         this.color = color;
         this.filled = filled;
-        
+        this.dateCreated=new Date();
         ;
     }
 
